@@ -90,11 +90,19 @@ so each of those has a handler.*/
   container.onmouseleave = onMouseLeaveHandler;
   container.onmouseenter = onMouseEnterHandler;
 })();
+  
 
 
 
+                    /*open video*/
+$(".icon-parent").click(function(){
+  $(".open-video").fadeIn(500);
+});
 
-
+                    /*close video*/
+$(".btnclose").click(function(){
+  $(".open-video").fadeOut(500);
+});
 
 
 

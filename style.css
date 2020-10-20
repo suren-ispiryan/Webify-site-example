@@ -164,12 +164,43 @@ li>button{
 	position: relative;
 }
 .open-video{
-	z-index: 9;
-	position: absolute;
-	top: 5%;
-	display: none !important;
+	width: 70% !important;
+	height: 70% !important;
+	z-index: 999;
+	position: fixed;
+	top: 10%;
+	left: 15%;
+	display: none;
+}
+iframe{
+	height: 100%;
+}
+.btnclose{
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	height: 40px;
+	width: 40px;
+	position: absolute; 
+	top: 0%;
+	right: 0%;
+	outline: none;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	background-color: red;
+	cursor: pointer;
 }
 		/*slider-brands*/
+
+
+
+
+
+
+
+
+
 
 
 
