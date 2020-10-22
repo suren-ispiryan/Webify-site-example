@@ -1,4 +1,7 @@
-                      /*Section-2-video*/
+//----------------------------------------------------------------
+                    /*Section-2-video-animation-effect*/
+//----------------------------------------------------------------
+
 
 (function() {
 // Init
@@ -35,7 +38,6 @@
 // Track the mouse position relative to the center of the container.
   mouse.setOrigin(inner);
 
-
 //When the counter reaches the updateRate, an update will be made.
   var counter = 0;
   var refreshRate = 10;
@@ -59,8 +61,6 @@
     }
   };
 
-
-
 /*Updates the mouse position and updates 
   the style of the #inner div.*/
   var update = function(event) {
@@ -81,7 +81,6 @@
     inner.style.oTransform = style;
   };
 
-
 /*these functions handle the events as they happen. 
 We want to decide what happens when the cursor enters, 
 moves over, and leaves the container, 
@@ -94,7 +93,11 @@ so each of those has a handler.*/
 
 
 
-                    /*open video*/
+//----------------------------------------------------------------
+                    /*Section-2-open-video*/
+//----------------------------------------------------------------
+
+
 $(".icon-parent").click(function(){
   $(".open-video").fadeIn(500);
 });
@@ -104,6 +107,38 @@ $(".btnclose").click(function(){
   $(".open-video").fadeOut(500);
 });
 
+
+
+
+//----------------------------------------------------------------
+                    /*Section-2-slider-brands*/
+//----------------------------------------------------------------
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#secondary-slider', {
+    type   : 'loop',
+    fixedWidth  : 140,
+    height      : 60,   
+    gap         : 40,   // nkarneri aheravorutyun
+    perPage     : 6,     // qanaky nkarneri eji vra
+    perMove     : 1,     // poxeluc qani hat ga nkar
+    cover       : false, // chapy nkarneri
+    pagination  : false, // ejakalum
+    isNavigation: false, // navigacya
+    breakpoints : {
+      '600': {
+        fixedWidth: 66,
+        height    : 40,
+      }
+    },
+  } ).mount();
+} );
+
+
+//----------------------------------------------------------------
+                    /**/
+//----------------------------------------------------------------
 
 
 
