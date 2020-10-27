@@ -93,6 +93,9 @@ so each of those has a handler.*/
 
 
 
+
+
+
 //----------------------------------------------------------------
                     /*Section-2-open-video*/
 //----------------------------------------------------------------
@@ -106,6 +109,9 @@ $(".icon-parent").click(function(){
 $(".btnclose").click(function(){
   $(".open-video").fadeOut(500);
 });
+
+
+
 
 
 
@@ -136,9 +142,26 @@ document.addEventListener( 'DOMContentLoaded', function () {
 } );
 
 
+
+
 //----------------------------------------------------------------
-                    /**/
+                    /*section-3-slider*/
 //----------------------------------------------------------------
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#secondary-slider2', {
+    type   : 'loop',
+    fixedWidth  : 0,
+    height      : 100,   
+    gap         : 0,   // nkarneri heravorutyun
+    perPage     : 4,     // qanaky nkarneri eji vra
+    perMove     : 1,     // poxeluc qani hat ga nkar
+    cover       : false, // chapy nkarneri
+    pagination  : false, // ejakalum
+    isNavigation: false, // navigacya
+  } ).mount();
+} );
 
 
 
