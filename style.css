@@ -276,6 +276,76 @@ iframe{
 
 
 
+				
+						/*section-4-plans*/
+
+
+.sec-4-intro{
+	padding-right: 
+	font-size: 15px;
+}
+.sec-4-paragraphs{
+	opacity: 0.7;
+	text-align: center;
+}
+.sec-4-more{
+	cursor: pointer;
+}
+.sec4-cols-parents{
+	padding: 15px !important;
+	box-shadow: 1px 1px 5px;
+}
+
+
+
+
+					/*section-5-pictures*/
+
+.sec5{
+	padding: 100px 0;
+}
+.sec-5-heading{
+	text-align: center;
+}
+.sec-5-intro{
+	opacity: 0.7;
+	padding: 25px 25px 35px 25px;
+	text-align: center;
+	font-size: 17px;
+}
+	/*menu*/
+.menu-parrent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elements{
+	opacity: 0.7;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 4px 20px;
+}
+.active{
+	border-color: rgba(0,0,0,0.3) !important;
+	border: 1px solid;
+	border-radius: 5px;
+}
+	/*search-content*/
+.search-content{
+	display: flex !important;
+	justify-content: flex-start !important;
+	align-items: flex-start !important;
+	flex-wrap: wrap;
+}
+.pics{
+	padding: 5px;
+}
+
+
+
+
+
+
 
 
 						/*Hover part*/
@@ -301,7 +371,22 @@ iframe{
 .splide__arrow:hover {
 	color: rgba(255,255,255.1) !important;
 }
-
+	/*sec-4-plans*/
+.text1:hover {
+	color: red !important;
+}
+.text2:hover {
+	color: red !important;
+}
+.text3:hover {
+	color: red !important;
+}
+.sec-4-container2:hover{
+	transform: translateZ();
+}
+.elements:hover{
+	opacity: 0.5 !important;
+}
 
 
 

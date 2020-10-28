@@ -165,3 +165,19 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 
+
+//----------------------------------------------------------------
+                    /*section-5-images*/
+//----------------------------------------------------------------
+
+
+//buttons
+$(".elements").click(function(){
+  $(".elements").removeClass("active");
+  $(this).addClass("active");
+});
+
+
+
+
+
