@@ -343,12 +343,88 @@ iframe{
 
 
 
+				/*section-6-statistics*/
+
+
+
+.sec-6-container{
+	background-image: url(Assets/section-6-statistics/sliderBackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.sec-6-sub-container{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+}
+.sec-6-parent{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0px;
+}
+.sec6-elements{
+	margin: 5px 0;
+ 	border: 1px white solid;
+	padding: 10px 120px !important;
+	border-color: rgba(255,255,255,0.1);
+}
+.elems{
+	text-align: center;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+			/*section-7-personals*/
+
+.sec7-parrent{
+	padding: 120px 0;
+}
+.sec7-heading{
+	text-align: center !important;
+}
+.sec7-sub-heading{
+	color: rgba(0,0,0,0.5);
+	padding: 0px 30px !important;
+	text-align: center !important;
+	font-size: 20px;
+}
+
+/*pics*/
+.a{
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+.sec-7-pics-heading{
+	text-align: center !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.classa{
+	color: black !important;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 
 
 
 						/*Hover part*/
+
 
 
 	/*header*/
