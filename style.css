@@ -275,9 +275,9 @@ iframe{
 
 
 
-
 				
 						/*section-4-plans*/
+
 
 
 .sec-4-intro{
@@ -300,6 +300,9 @@ iframe{
 
 
 					/*section-5-pictures*/
+
+
+
 
 .sec5{
 	padding: 100px 0;
@@ -381,6 +384,8 @@ iframe{
 
 			/*section-7-personals*/
 
+
+
 .sec7-parrent{
 	padding: 120px 0;
 }
@@ -413,8 +418,85 @@ iframe{
 
 
 
+				/*section8*/
 
 
+
+.sec8-fluid{
+	background-image: url(Assets/section-8-contactUs/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.sec-8-cont{
+	padding: 180px 10px 150px 10px;
+}
+.sec-8-parentss{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec-8-rows{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.sec-8-heading{
+	font-size: 48px;
+}
+
+
+
+			/*section-9-blog-entrees*/
+
+
+.sec9-fluid{
+	z-index: 5;
+}
+
+
+
+			/*footer*/
+			
+.footer-fluid{
+	background-attachment: fixed;
+	z-index: 2;
+}
+.footer-heading{
+	text-align: center;
+}
+.footer-heading2{
+	opacity: 0.7;
+	text-align: center;
+}
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pics-cont-footer{
+	padding: 0px;
+	position: relative;
+	max-height: 350px;
+	text-align: left;
+}
+.footer-rel-elements1{
+	padding: 20px;
+	position: absolute;
+	bottom: 60px;
+	color: rgb(250,250,250);
+}
+.footer-rel-elements2{
+	padding: 20px;
+	position: absolute;
+	bottom: 10px;
+	color: rgb(250,250,250);
+}
+.footerhr{
+	color: rgb(250,250,250);
+	padding: 0px 20px
+}
 
 
 
