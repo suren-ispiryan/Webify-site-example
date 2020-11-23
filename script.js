@@ -144,6 +144,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 
+
 //----------------------------------------------------------------
                     /*section-3-slider*/
 //----------------------------------------------------------------
@@ -166,6 +167,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 
+
 //----------------------------------------------------------------
                     /*section-5-images*/
 //----------------------------------------------------------------
@@ -177,7 +179,65 @@ $(".elements").click(function(){
   $(this).addClass("active");
 });
 
+//sec-5-pictures-choose
+var pics = $(".pics");
+for (var i = 0; i < pics.length; i++) {
+
+  $("#all").click(function(){
+    $(pics).css("display","block");
+  });
+
+   $("#branding").click(function(){
+    $(pics).css("display","none");
+    $(pics[1]).css("display","block");
+    $(pics[2]).css("display","block");
+  });
+
+  $("#motion").click(function(){
+    $(pics).css("display","none");
+    $(pics[4]).css("display","block");
+    $(pics[5]).css("display","block");
+  });
+
+  $("#photography").click(function(){
+    $(pics).css("display","none");
+    $(pics[0]).css("display","block");
+    $(pics[4]).css("display","block");
+    $(pics[5]).css("display","block");
+  });
+
+  $("#uiux").click(function(){
+    $(pics).css("display","none");
+    $(pics[3]).css("display","block");
+    $(pics[4]).css("display","block");
+    $(pics[5]).css("display","block");
+  });  
+
+}
 
 
 
+//----------------------------------------------------------------
+                    /*go-up-btn*/
+//----------------------------------------------------------------
+
+
+
+var btn = $('.go-up');
+
+// show/hide
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    btn.css("display", "block");
+  } 
+  else {
+    btn.css("display", "none");
+  }
+});
+
+// go-up
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
